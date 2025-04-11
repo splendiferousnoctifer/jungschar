@@ -1,6 +1,13 @@
 import React, { useState } from 'react';
 import { MapPin, Calendar, Users, ChevronRight, Send, Menu, X, Check, Plus, Trash } from 'lucide-react';
 
+// Import images
+import image6 from './assets/image6.jpg';
+import image11 from './assets/image11.jpg';
+import image14 from './assets/image14.jpg';
+import image21 from './assets/image21.jpg';
+import image24 from './assets/image24.png';
+
 const CustomLogo = () => (
   <svg className="w-6 h-6" viewBox="0 0 76.75 76.75">
     <path
@@ -280,27 +287,27 @@ function App() {
             <div className="col-span-1 md:col-span-2 relative h-[30vh] md:h-[45vh]">
               <div className="image-collage">
                 <img 
-                  src={import.meta.env.BASE_URL + 'images/image6.jpg'}
+                  src={image6}
                   alt="Jungschar Lager Aktivität" 
                   className="image-1 torn-paper"
                 />
                 <img 
-                  src={import.meta.env.BASE_URL + 'images/image11.jpg'}
+                  src={image11}
                   alt="Jungschar Lager Outdoor" 
                   className="image-2 torn-paper"
                 />
                 <img 
-                  src={import.meta.env.BASE_URL + 'images/image14.jpg'}
+                  src={image14}
                   alt="Jungschar Lager Natur" 
                   className="image-3 torn-paper"
                 />
                 <img 
-                  src={import.meta.env.BASE_URL + 'images/image21.jpg'}
+                  src={image21}
                   alt="Jungschar Lager Gruppe" 
                   className="image-4 torn-paper"
                 />
                 <img 
-                  src={import.meta.env.BASE_URL + 'images/image24.png'}
+                  src={image24}
                   alt="Jungschar Lager Erlebnis" 
                   className="image-5 torn-paper"
                 />
