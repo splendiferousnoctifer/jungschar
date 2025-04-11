@@ -280,27 +280,27 @@ function App() {
             <div className="col-span-1 md:col-span-2 relative h-[30vh] md:h-[45vh]">
               <div className="image-collage">
                 <img 
-                  src="./images/image6.jpg" 
+                  src={import.meta.env.BASE_URL + 'images/image6.jpg'}
                   alt="Jungschar Lager Aktivität" 
                   className="image-1 torn-paper"
                 />
                 <img 
-                  src="./images/image11.jpg" 
+                  src={import.meta.env.BASE_URL + 'images/image11.jpg'}
                   alt="Jungschar Lager Outdoor" 
                   className="image-2 torn-paper"
                 />
                 <img 
-                  src="./images/image14.jpg" 
+                  src={import.meta.env.BASE_URL + 'images/image14.jpg'}
                   alt="Jungschar Lager Natur" 
                   className="image-3 torn-paper"
                 />
                 <img 
-                  src="./images/image21.jpg" 
+                  src={import.meta.env.BASE_URL + 'images/image21.jpg'}
                   alt="Jungschar Lager Gruppe" 
                   className="image-4 torn-paper"
                 />
                 <img 
-                  src="./images/image24.png" 
+                  src={import.meta.env.BASE_URL + 'images/image24.png'}
                   alt="Jungschar Lager Erlebnis" 
                   className="image-5 torn-paper"
                 />
